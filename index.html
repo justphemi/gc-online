@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GAMMACODE">
+    <link rel="icon" href="images/shapes/fav.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GAMMACODE</title>
+</head>
+
+<body class="body">
+    <div id="progress">
+        <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
+    </div>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- <div class="d-flex justify-content-between align-items-center"> -->
+                        <!-- <h3 class="heading-2 primary-text text-bold font-bold">GAMMACODE</h3> -->
+                        <a class="navbar-brand " href="/"><img src="images/shapes/logo.png" class="logo" alt="LOGO"></a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                <!-- </div> -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                  
+                    <div class="d-flex gap-2 ms-auto align-self-">
+                        <a class="btn" target="_blank" href="mailto:teams@gammacode.com.ng">Email us</a>
+                        <button id="mode-toggle" class="btn-light-mode switch-button">
+                            <i id="mode-icon" class="fa-solid fa-moon icon-md primary-text"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="d-flex flex-column text-center  gap-32  justify-content-center  align-items-center position-relative">
+                <img class="shape blury" src="images/shapes/bbblurry.svg" alt="shape">
+                <div class="d-flex flex-column text-center gap-16 justify-content-center  align-items-center position-relative">
+                    <h1 class="heading-1 position-relative">Amplify Your business's <span class="primary-text">Impact</span></h1>
+                    <p class="body-1 grey-text position-relative">We design stunning websites that showcase your business and attract more customers.</p>
+                    <!-- <a class="btn" href="#">get started</a> -->
+                </div>
+                <div class="col-lg-10 col-12 row justify-content-between align-items-center ">
+                    <div class="col-lg-4 col-md-4 col-12 bordered-box">
+                        <div class="heading-1 d-flex text-center justify-content-center align-items-center">
+                            <h1 class="heading-1 counter">450</h1>+</div>
+                        <p class="body-1 grey-text">Completed Projects</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 bordered-box">
+                        <div class="heading-1 d-flex text-center justify-content-center align-items-center">
+                            0<h1 class="heading-1 counter">06</h1>+</div>
+                        <p class="body-1 grey-text">Years of Experience</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 bordered-box">
+                        <div class="heading-1 d-flex text-center justify-content-center align-items-center">
+                            <h1 class="heading-1 counter">625</h1>K+</div> 
+                        <p class="body-1 grey-text">Customers Gained</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    
+
+    <section class="services position-relative pt-4  mt-0" id="services">
+        <img class="shape blury blury-1" src="images/shapes/bbblurry.svg" alt="shape">
+        <img class="shape organise" src="images/shapes/ooorganize.svg" alt="shape">
+        <img class="shape blury blury-2" src="images/shapes/bbblurry.svg" alt="shape">
+        <div class="container section">
+            <div class="d-flex flex-column gap-lg-0  gap-4">
+                <div class="row reverse g-lg-0  g-4">
+                    <div class="bordered-box col-lg-4 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-brands fa-pencil-ruler primary-text icon-lg"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-2">
+                                Project Planning
+                            </h2>
+                            <p class="body-2">
+                                We provide comprehensive website planning services. From strategic layouts to engaging visuals, we craft custom solutions that meet your unique needs.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 ps-lg-5 ps-md-5 ps-0  ">
+                        <h1 class="heading-1">Explore the outstanding <span class='primary-text'>services</span> we provide</h1>
+                        <!-- <p class="body-1"></p> -->
+                    </div>
+                </div>
+                <div class="row g-lg-0 g-md-4  g-4">
+                    <div class="col-lg-4 mobile-none"></div>
+                    <div class="bordered-box col-lg-4 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-laptop-code primary-text icon-lg"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-2">
+                                web developement
+                            </h2>
+                            <p class="body-2">
+                                We offer web development services that help your business grow. With responsive designs and smooth functionality, our websites are built to generate leads and bring in new customers.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mobile-none"></div>
+                </div>
+                <div class="row g-lg-0  g-4">
+                    <div class="bordered-box col-lg-4 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-paintbrush primary-text icon-lg"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-2">
+                                graphic design
+                            </h2>
+                            <p class="body-2">
+                                We provide creative graphic design services to elevate your brand. From eye-catching logos to cohesive branding materials, we craft designs that connect with your audience and leave a lasting impression.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mobile-none"></div>
+                    <div class="bordered-box col-lg-4 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-magnifying-glass primary-text icon-lg"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-2">
+                                SEO  Solutions
+                            </h2>
+                            <p class="body-2">
+                                We offer SEO services that boost your online visibility and drive organic traffic. From keyword optimization to content strategy, we help your business rank higher and attract the right customers.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="about position-relative pt-4  mt-0" id="about">
+        <img class="shape blury blury-1" src="images/shapes/bbblurry.svg" alt="shape">
+        <img class="shape organise" src="images/shapes/ooorganize.svg" alt="shape">
+        <img class="shape blury blury-2" src="images/shapes/bbblurry.svg" alt="shape">
+        <div class="container section">
+            <div class="d-flex flex-column gap-lg-0 gap-4">
+                <div class="row justify-content-between  g-lg-0 g-md-0  g-4">
+                    <div class="col-lg-8 d-flex flex-column gap-16">
+                        <h1 class="heading-1">Why should you <span class="primary-text">work</span> with us?
+                        </h1>
+                        <p class="body-1">Did you know that 47% of consumers visit a company&apos;s website before making a purchase decision?</p>
+                        <p class="body-1">Our team specializes in crafting bespoke websites that not only captivate visitors but also convert them into customers. By optimizing your site for search engines and enhancing user experience, we help you reach potential customers around the globe.</p>
+                        <p class="body-1">Together, we can build and transform your website into a powerful tool that generates leads, boosts conversions, and ultimately drives revenue. Let&apos;s collaborate to make this a reality.</p>
+
+                    </div>
+                    <div class="bordered-box col-lg-3 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-globe primary-text icon-md"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-3">
+                                global services
+                            </h2>
+                            <p class="body-2">
+                                Grow your business with our website development expertise. We build engaging, user-friendly platforms that connect your brand to customers everywhere. Based largely online, we deliver top-notch services that help you reach diverse audiences around the globe.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-lg-0 g-md-0  g-4">
+                    <div class="col-lg-3 mobile-none">
+                        <a href="mailto:teams@gammacode.com.ng" target="_blank" class="btn w-fit">Email Us</a>
+                    </div>
+                    <div class="col-lg-3 mobile-none"></div>
+                    <div class="bordered-box col-lg-3 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-headset primary-text icon-md"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-3">
+                                support 24/7
+                            </h2>
+                            <p class="body-2">
+                                We&apos;re here to ensure your online presence thrives around the clock.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mobile-none"></div>
+                </div>
+                <div class="row g-lg-0 g-md-0  g-4">
+                    <div class="col-lg-3 mobile-none"></div>
+                    <div class="bordered-box col-lg-3 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-regular fa-gem primary-text icon-md"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-3">
+                                Unique Solutions
+                            </h2>
+                            <p class="body-2">
+                                From captivating designs to smooth functionality, we create and maintain websites that drive results.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mobile-none"></div>
+                    <div class="bordered-box mt-lg-0 mt-4  col-lg-3 padding-32 d-flex  flex-column  gap-32">
+                        <div><i class="fa-solid fa-bank primary-text icon-md"></i></div>
+                        <div class="d-flex flex-column gap-8">
+                            <h2 class="heading-3">Affordable Solutions
+                            </h2>
+                            <p class="body-2">
+                                We deliver high-quality designs and seamless functionality that help you connect with customers without breaking the bank.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    
+    <section class="testimonials position-relative pt-4 mt-0">
+        <img class="shape blury blury-1" src="images/shapes/bbblurry.svg" alt="shape">
+        <img class="shape organise" src="images/shapes/ooorganize.svg" alt="shape">
+        <img class="shape blury blury-2" src="images/shapes/bbblurry.svg" alt="shape">
+        <div class="d-flex flex-column gap-16 section">
+            <div class="container">
+                <div class="col-lg-10 d-flex flex-column gap-16">
+                    <h1 class="heading-1 col-12 "><span class="primary-text">Few words</span> from some of our Partners</h1>
+                    <!-- <p class="body-1"></p> -->
+                </div>
+            </div>
+            <div class="scroller" data-speed="fast">
+                <div class="scroller__inner ">
+                    <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
+                        <div class="img padding-8">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT420ScnzNnXK-G45JAgh0a_YDqMCzNaXe6jg&s" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8">
+                            <p class="body-1">
+                                I can't express how wonderful it has been to work with this team! From the very beginning, they took the time to understand our needs and vision. They made the process so easy and enjoyable. Their creativity and attention to detail really shine through in the final product. I felt like they were genuinely invested in our success. We couldn&apos;t be happier with our stunning new website!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">Emily Johnson</h3>
+                                    <p class="body-1">San Francisco, USA</p>
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordered-box d-flex flex-lg-row flex-column   gap-16">
+                        <div class="img padding-8">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT420ScnzNnXK-G45JAgh0a_YDqMCzNaXe6jg&s" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8">
+                            <p class="body-1">
+                                Wow! What an incredible experience! This team is not just skilled; they truly care about their clients. They took our rough ideas and turned them into a beautiful, functional website that perfectly captures our brand. Their flexibility and willingness to negotiate costs made the whole experience even better. I can&apos;t recommend them highly enough!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">Michael Carter</h3>
+                                    <p class="body-1">London, UK</p>
+
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+                        <div class="img padding-8">
+                            <img src="data:image/jpeg;base64,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" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8">
+                            <p class="body-1">
+                                I am beyond thrilled with the results! This team is incredible—they transformed our website into something truly special. They kept us updated throughout the project, and their communication was top-notch. It felt like we were working with friends who really understood our needs. Our website has received so many compliments already!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">James Lee</h3>
+                                    <p class="body-1">Sydney, Australia</p>
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroller" data-speed="fast" data-direction="right">
+                <div class="scroller__inner ">
+                    <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+                        <div class="img padding-8">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT420ScnzNnXK-G45JAgh0a_YDqMCzNaXe6jg&s" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8">
+                            <p class="body-1">
+                                What a fantastic experience! This team offered amazing solutions that fit our budget perfectly. They balanced quality and affordability so well, making us feel like a priority. Their friendly approach made collaboration a joy. I&apos;m still in awe of how they converted our ideas into a breathtaking website!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">Grace Kim</h3>
+                                    <p class="body-1">Seoul, South Korea</p>
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
+                        <div class="img padding-8">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT420ScnzNnXK-G45JAgh0a_YDqMCzNaXe6jg&s" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8">
+                            <p class="body-1">
+                                From the initial consultation to the final launch, the experience was outstanding! This team is not only talented but also genuinely cares about their clients. They listened to our needs, communicated clearly, and delivered a website that we are proud to showcase. It has been such a pleasure to work with them!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">Lucas Brown</h3>
+                                    <p class="body-1">Auckland, New Zealand</p>
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
+                        <div class="img padding-8">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT420ScnzNnXK-G45JAgh0a_YDqMCzNaXe6jg&s" alt="person">
+                        </div>
+                        <div class="d-flex flex-column gap-8 text">
+                            <p class="body-1">
+                                I was pleasantly surprised by how enjoyable the process was! This team is not only skilled but also incredibly friendly. They kept us informed and involved every step of the way, ensuring that we were happy with the direction of our project. The website they created is better than I could have imagined, and I&apos;m excited to share it with our customers!
+                            </p>
+                            <hr>
+                            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+                                <div class="d-flex flex-column">
+                                    <h3 class="heading-3">Ethan Garcia</h3>
+                                    <p class="body-1">Buenos Aires, Argentina</p>
+                                </div>
+                                <div class="d-flex gap-2 ">
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                    <i class="fa-solid fa-star primary-text icon-sm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="faq position-relative pt-4 mt-0" id="faq">
+        <img class="shape blury blury-1" src="images/shapes/bbblurry.svg" alt="shape">
+        <img class="shape blury blury-2" src="images/shapes/bbblurry.svg" alt="shape">
+        <div class="container section">
+            <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">FREQUENT Questions and <span class="primary-text">Answers</span></h1>
+            <div class="d-flex flex-column  gap-16">
+                <div class="bordered-box">
+                    <a data-bs-toggle="collapse" class="btn" role="button" onclick="rotateIcon('icon1')" aria-expanded="false" data-bs-target="#collapseOne">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                Do you provide ongoing support after the website is launched?
+                            </h4>
+                            <i id="icon1" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapseOne">
+                        <p class="body-1 mt-4">
+                            Absolutely! We believe in building lasting relationships with our clients. After your website is launched, we offer ongoing support and maintenance services to ensure your site runs smoothly and stays up-to-date with the latest technology and security measures.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapsei" onclick="rotateIcon('iconi')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                What if I don&apos;t like the final website design?
+                            </h4>
+                            <i id="iconi" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapsei">
+                        <p class="body-1 mt-4">
+                            Your satisfaction is our priority. We&apos;ll involve you throughout the design process, and there will be multiple opportunities for you to provide feedback and request changes. If you&apos;re not completely satisfied with the final design, we&apos;ll work with you to make revisions until the website meets your expectations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" onclick="rotateIcon('icon2')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                Can you integrate third-party tools or systems into my website?
+                            </h4>
+                            <i id="icon2" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapseTwo">
+                        <p class="body-1 mt-4">
+                            Absolutely! We can integrate various third-party tools and services, including CRM systems, e-commerce platforms, payment gateways, marketing automation tools, and more. We&apos;ll ensure these integrations work seamlessly with your website to enhance functionality and performance.
+                        </p>
+                    </div>
+                </div>
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" onclick="rotateIcon('icon3')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                What is your pricing structure?
+                            </h4>
+                            <i id="icon3" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapseThree">
+                        <p class="body-1 mt-4">
+                            Our pricing is tailored to each project based on its unique requirements. We offer competitive rates without compromising quality. During our initial consultation, we&apos;ll discuss your goals and budget to provide a transparent quote that aligns with your needs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" onclick="rotateIcon('icon4')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                How long does it take to complete a website project?
+                            </h4>
+                            <i id="icon4" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapsefour">
+                        <p class="body-1 mt-4">
+                            The timeline for a website project varies depending on its complexity and scope. Typically, a basic website can take around 1 to 2 weeks, while more complex projects may take 4 to 5 weeks or longer. We work closely with our clients to establish a timeline that meets their needs and keeps them informed throughout the process.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapsev" onclick="rotateIcon('iconv')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                Do you offer hosting and domain registration services?
+                            </h4>
+                            <i id="iconv" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapsev">
+                        <p class="body-1 mt-4">
+                            While we don&apos;t directly provide hosting or domain registration, we can recommend trusted partners for these services. We&apos;ll guide you through the process of selecting the best hosting plan for your needs and can help you set everything up to ensure your website runs smoothly.                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapsevv" onclick="rotateIcon('iconvv')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                Will my website be mobile-friendly?
+                                                        </h4>
+                            <i id="iconvv" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapsevv">
+                        <p class="body-1 mt-4">
+                            Absolutely! All websites we build are fully responsive, meaning they will adapt to any device, whether it&apos;s a smartphone, tablet, or desktop. With mobile users making up a significant portion of internet traffic, we ensure that your website delivers a seamless experience across all platforms.                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapsevii" onclick="rotateIcon('iconvii')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                Can you redesign my existing website?
+                            </h4>
+                            <i id="iconvii" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapsevii">
+                        <p class="body-1 mt-4">
+                            Yes, we can redesign your current website to improve its design, functionality, and performance. Whether you&apos;re looking to modernize your site&apos;s appearance, improve user experience, or boost conversions, we&apos;ll work with you to create a new design that aligns with your business goals and resonates with your audience.                        </p>
+                    </div>
+                </div>
+
+                <div class="bordered-box">
+                    <a class="btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapseviv" onclick="rotateIcon('iconviv')" aria-expanded="false">
+                        <div class="d-flex justify-content-between w-100 ">
+                            <h4 class="heading-3 m-0 p-0">
+                                How do you ensure that my website is optimized for search engines?
+                            </h4>
+                            <i id="iconviv" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                        </div>
+                    </a>
+                    <div class="collapse" id="collapseviv">
+                        <p class="body-1 mt-4">
+                            We incorporate SEO best practices during the website design and development process. This includes optimizing your site&apos;s structure, meta tags, and content for relevant keywords. Additionally, we provide guidance on creating quality content that engages your audience, helping to improve your site&apos;s visibility on search engines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact position-relative pt-4 mt-4" id="contact">
+        <img class="shape blury blury-1" src="images/shapes/bbblurry.svg" alt="shape">
+        <img class="shape blury blury-2" src="images/shapes/bbblurry.svg" alt="shape">
+        <div class="container section">
+            <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">Let's Discuss Your <span class="primary-text">Big Idea</span></h1>
+            <div class="row g-4">
+                <div class="col-lg-6 col-12 ">
+                    <div class="d-flex flex-column  gap-32">
+                        <div class="d-flex flex-column gap-16 w-100 ">
+                            <div class="d-flex gap-16">
+                                <i class="fa-brands fa-twitter primary-text  icon-md"></i>
+                                <h3 class="heading-2 m-0 p-0 text-lowercase">GAMMACODE</h3>
+                            </div>
+                            <hr class="m-0 p-0 ">
+                        </div>
+                        <!-- <div class="d-flex flex-column gap-16 w-100 ">
+                            <div class="d-flex gap-16">
+                                <i class="fa-solid fa-phone primary-text  icon-md"></i>
+                                <h3 class="heading-2 m-0 p-0 "></h3>
+                            </div>
+                            <hr class="m-0 p-0 ">
+                        </div> -->
+                        <div class="d-flex flex-column gap-16 w-100 ">
+                            <div class="d-flex gap-16">
+                                <i class="fa-solid fa-envelope primary-text  icon-md"></i>
+                                <a href="mailto:support@gammacode.com.ng" target="_blank">
+                                    <h3 class="heading-2 m-0 p-0 text-lowercase">teams@gammacode.com.ng</h3>
+                                </a>
+                            </div>
+                            <hr class="m-0 p-0 ">
+                        </div>
+                        <div class="d-flex flex-column gap-16 w-100 ">
+                            <div class="d-flex gap-16">
+                                <i class="fa-solid fa-envelope primary-text  icon-md"></i>
+                               <a href="mailto:support@gammacode.com.ng" target="_blank">
+                                   <h3 class="heading-2 m-0 p-0 text-lowercase">partners@gammacode.com.ng</h3>
+                               </a> 
+                            </div>
+                            <hr class="m-0 p-0 ">
+                        </div>
+                        <div class="d-flex flex-column gap-16 w-100 ">
+                            <div class="d-flex gap-16">
+                                <i class="fa-solid fa-envelope primary-text  icon-md"></i>
+                               <a href="mailto:support@gammacode.com.ng" target="_blank">
+                                   <h3 class="heading-2 m-0 p-0 text-lowercase">support@gammacode.com.ng</h3>
+                               </a> 
+                            </div>
+                            <hr class="m-0 p-0 ">
+                        </div>
+                        <!-- <iframe class="contact-map w-100 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335"
+                            allowfullscreen="">
+            </iframe> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 ">
+                    <form action="contact.php" method="post" class="main-form d-flex flex-column gap-32">
+                        <div class="row g-4">
+                            <div class="col-lg-6 col-12">
+                                <div class="d-flex flex-column w-100 gap-8">
+                                    <h3 class="heading-3">name <span class="primary-text">*</span></h3>
+                                    <input type="text" id="name" name="name" placeholder="john doe" required class="bordered-box">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="d-flex flex-column w-100 gap-8">
+                                    <h3 class="heading-3">subject <span class="primary-text">*</span></h3>
+                                    <input type="text" id="subject" name="subject" placeholder="subject" required class="bordered-box">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column w-100  gap-8">
+                            <h3 class="heading-3">email <span class="primary-text">*</span></h3>
+                            <input type="email" id="email" name="email" placeholder="example@example.com" required class="bordered-box">
+                        </div>
+                        <div class="d-flex flex-column w-100  gap-8">
+                            <h3 class="heading-3">message <span class="primary-text">*</span></h3>
+                            <textarea id="message" name="message" placeholder="your message" required cols="30" rows="10" class="bordered-box"></textarea>
+                        </div>
+                        <button type="submit" value="Submit" class="btn w-fit">send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="footer position-relative pt-4 mt-4">
+        <div class="container">
+            <hr class="p-0 m-0">
+            <div class="row justify-content-between align-items-center  my-4 ">
+                <!-- <a href="" class="d-flex justify-content-center justify-content-lg-start col-lg-3 col-md-6 col-13 mt-lg-0 mt-2 ">
+                    <h3 class="heading-2 primary-text">GAMMACODE</h3>
+                </a> -->
+                
+                <div class="justify-content-center  mt-lg-0 mt-2">
+                    <p class="copy">GAMMACODE Copyright © 2019 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
