@@ -7,7 +7,7 @@
     /* body bg color */
     --bodyColor: #000;
     /* primary brand color */
-    --primary-color: #95efffe7;
+    --primary-color: #59b8c9e7;
     /* white color */
     --white: #fff;
     /* grey color */
@@ -26,7 +26,7 @@ body.dark-mode {
     /* body bg color */
     --bodyColor: #f3f3f3;
     /* primary brand color */
-    --primary-color: #569aa7e7;
+    --primary-color: #3d737ee7;
     /* white color */
     --white: #050505;
     /* grey color */
@@ -925,3 +925,42 @@ img {
 }
 
 /*============== End Footer section ==========*/
+
+  #toast {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -200px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 17px;
+        }
+
+        @media(max-width: 500px){
+            #toast{
+                position: fixed;
+                top: 15%;
+                height: max-content;
+                justify-self: center;
+            }
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from {bottom: 0; opacity: 0;}
+            to {bottom: 30px; opacity: 1;}
+        }
+
+        @keyframes fadeout {
+            from {bottom: 30px; opacity: 1;}
+            to {bottom: 0; opacity: 0;}
+        }

@@ -152,3 +152,22 @@ $(document).ready(function() {
         time: 1200,
     });
 });
+
+ (function(){emailjs.init("4wln9TGPAAmXUos1l");})();
+
+ function showToast() {
+    var toast = document.getElementById("toast");
+    toast.className = "show";
+    setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 10000);
+}
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    emailjs.sendForm('service_oyhvtih', 'template_ph21n1o', this)
+    .then(function(response) {
+        document.getElementById('contact-form').reset();
+        showToast();
+    }, function(error) {
+        alert('FAILED...', error);
+    });
+});
